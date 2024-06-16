@@ -27,6 +27,7 @@ header {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-blend-mode: darken;
     /* size */
     height: 250px;
     padding: 100px;

@@ -57,17 +57,21 @@ header {
 }
 
 .p-1 {
-    width: 700px;
+    max-width: 700px;
 }
 
 .p-2 {
-    width: 300px;
+    max-width: 500px;
+}
+
+.p-3 {
+    max-width: 300px;
     margin: 0 20px;
     vertical-align: top;
 }
 
-.p-3 {
-    width: 200px;
+.p-4 {
+    max-width: 200px;
 }
 
 .section-title {
@@ -106,6 +110,7 @@ header {
     color: aliceblue;
     box-sizing: border-box;
     font-size: 0;
+    background-color: cornflowerblue;
 }
 
 #contact-option {

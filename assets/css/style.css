@@ -1,0 +1,117 @@
+html {
+    height: 100vh;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    font-size: medium;
+    text-align: center;
+    height: 100vh;
+
+    color: #383838;
+    background-color: aliceblue;
+}
+
+a {
+    color: inherit;
+}
+
+header {
+    /* background */
+    background: #383838 url("https://static.pexels.com/photos/248515/pexels-photo-248515.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* size */
+    height: 250px;
+    padding: 100px;
+    /* font */
+    color: aliceblue;
+    text-align: center;
+}
+
+#readmore {
+    border: 1px aliceblue solid;
+    width: 100px;
+    display: inline-block;
+    text-decoration: none;
+    padding: 13px 20px;
+    font-size: larger;
+}
+
+#readmore:hover {
+    background: aliceblue;
+    color: #383838;
+}
+
+.p {
+    margin: 0;
+    padding: 1em 0;
+    display: inline-block;
+}
+
+.p-1 {
+    width: 500px;
+}
+
+.p-2 {
+    width: 300px;
+    margin: 0 20px;
+}
+
+.section-title {
+    padding: 26px 0px;
+}
+
+#section-images {
+    background-color: #383838;
+}
+
+.ul-img-wrapper {
+    padding: 30px;
+    margin: 0;
+}
+
+.li-img-item {
+    background-color: aliceblue;
+    margin: 0 6px;
+    display: inline-block;
+}
+
+#section-more {
+    background-color: antiquewhite;
+    padding: 30px;
+    text-align: center;
+}
+
+.center-option {
+    display: inline-block;
+    width: 50%;
+    box-sizing: border-box;
+    font-size: initial;
+}
+
+#section-about {
+    color: aliceblue;
+    box-sizing: border-box;
+    font-size: 0;
+}
+
+#contact-option {
+    background-color: cornflowerblue;
+}
+
+#about-option {
+    background-color: #383838;
+}
+
+
+footer {
+    background-color: black;
+    color: aliceblue;
+    margin: 0 0px;
+    padding: 20px 0px;
+    box-sizing: border-box;
+    font-size: 0;
+}
